@@ -1,333 +1,548 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Personal portfolio of a first-year engineering student">
-    <title>My Portfolio | Engineering Student</title>
-
-    <!-- External CSS -->
-    <link rel="stylesheet" href="style.css">
-
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-</head>
-
-<body>
-
-    <!-- Navigation Bar -->
-    <header>
-        <nav class="navbar container">
-            <a href="#home" class="logo">My<span>Portfolio.</span></a>
-
-            <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <main>
-
-        <!-- Home Section -->
-        <section id="home" class="home">
-            <div class="home-content container">
-
-                <div class="home-text">
-                    <p class="welcome">WELCOME TO MY PORTFOLIO</p>
-
-                    <h1>Hello, I'm <span>Your Name</span></h1>
-
-                    <h2>First-Year Engineering Student</h2>
-
-                    <p>
-                        I am a passionate engineering student who loves
-                        technology, creativity, and problem-solving.
-                        I am exploring the world of programming and
-                        developing my technical skills.
-                    </p>
-
-                    <a href="#contact" class="btn">Contact Me</a>
-                </div>
-
-                <div class="home-image">
-                    <img src="assets/profile.jpg"
-                         alt="Profile photograph of Your Name">
-                </div>
-
-            </div>
-        </section>
-
-        <!-- About Section -->
-        <section id="about" class="section">
-            <div class="container">
-
-                <h2 class="section-title">About <span>Me</span></h2>
-
-                <div class="about-content">
-                    <div class="about-text">
-                        <h3>Who Am I?</h3>
-
-                        <p>
-                            Hello! My name is Your Name. I am a first-year
-                            engineering student with a strong interest
-                            in technology and innovation.
-                        </p>
-
-                        <p>
-                            I am currently pursuing my Bachelor of
-                            Engineering degree in Computer Engineering
-                            at Your College Name.
-                        </p>
-
-                        <p>
-                            I enjoy learning programming languages,
-                            designing websites, exploring new technologies,
-                            and solving logical problems.
-                        </p>
-
-                        <p>
-                            My career goal is to become a skilled software
-                            engineer and develop innovative solutions
-                            that make people's lives easier.
-                        </p>
-                    </div>
-
-                    <div class="about-details">
-                        <div class="detail-box">
-                            <h3>Education</h3>
-                            <p>B.E. / B.Tech Engineering</p>
-                            <p>First Year Student</p>
-                        </div>
-
-                        <div class="detail-box">
-                            <h3>Interests</h3>
-                            <p>Web Development</p>
-                            <p>Programming & Technology</p>
-                        </div>
-
-                        <div class="detail-box">
-                            <h3>Career Goal</h3>
-                            <p>Software Engineer</p>
-                            <p>Technology Innovator</p>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </section>
-
-        <!-- Skills Section -->
-        <section id="skills" class="section skills-section">
-            <div class="container">
-
-                <h2 class="section-title">My <span>Skills</span></h2>
-
-                <p class="section-subtitle">
-                    Skills I am learning and developing as an engineering student.
-                </p>
-
-                <div class="skills-container">
-
-                    <div class="skill-card">
-                        <h3>HTML5</h3>
-                        <div class="progress">
-                            <div class="progress-bar html"></div>
-                        </div>
-                        <p>90%</p>
-                    </div>
-
-                    <div class="skill-card">
-                        <h3>CSS3</h3>
-                        <div class="progress">
-                            <div class="progress-bar css"></div>
-                        </div>
-                        <p>80%</p>
-                    </div>
-
-                    <div class="skill-card">
-                        <h3>C Programming</h3>
-                        <div class="progress">
-                            <div class="progress-bar c"></div>
-                        </div>
-                        <p>70%</p>
-                    </div>
-
-                    <div class="skill-card">
-                        <h3>Python</h3>
-                        <div class="progress">
-                            <div class="progress-bar python"></div>
-                        </div>
-                        <p>60%</p>
-                    </div>
-
-                    <div class="skill-card">
-                        <h3>Communication</h3>
-                        <div class="progress">
-                            <div class="progress-bar communication"></div>
-                        </div>
-                        <p>85%</p>
-                    </div>
-
-                </div>
-
-            </div>
-        </section>
-
-        <!-- Projects Section -->
-        <section id="projects" class="section">
-            <div class="container">
-
-                <h2 class="section-title">My <span>Projects</span></h2>
-
-                <p class="section-subtitle">
-                    Some beginner-level projects I have worked on.
-                </p>
-
-                <div class="projects-container">
-
-                    <div class="project-card">
-                        <img src="assets/project1.jpg"
-                             alt="Personal portfolio website project">
-
-                        <div class="project-info">
-                            <h3>Personal Portfolio Website</h3>
-
-                            <p>
-                                A responsive personal portfolio website
-                                developed using HTML5 and CSS3 to showcase
-                                my introduction, skills, projects, and
-                                contact information.
-                            </p>
-
-                            <span class="tag">HTML5</span>
-                            <span class="tag">CSS3</span>
-                        </div>
-                    </div>
-
-                    <div class="project-card">
-                        <img src="assets/project2.jpg"
-                             alt="Student registration form project">
-
-                        <div class="project-info">
-                            <h3>Student Registration Form</h3>
-
-                            <p>
-                                A simple and user-friendly student
-                                registration form created using HTML
-                                and CSS with different input fields
-                                and form validation.
-                            </p>
-
-                            <span class="tag">HTML5</span>
-                            <span class="tag">CSS3</span>
-                        </div>
-                    </div>
-
-                </div>
-
-            </div>
-        </section>
-
-        <!-- Contact Section -->
-        <section id="contact" class="section contact-section">
-            <div class="container">
-
-                <h2 class="section-title">Contact <span>Me</span></h2>
-
-                <p class="section-subtitle">
-                    Have a question or want to work together? Feel free to contact me.
-                </p>
-
-                <div class="contact-container">
-
-                    <div class="contact-info">
-                        <h3>Let's Connect!</h3>
-
-                        <p>
-                            I am always excited to connect with new people,
-                            learn new things, and explore opportunities.
-                        </p>
-
-                        <p>📧 yourname@email.com</p>
-                        <p>📍 Your City, India</p>
-                    </div>
-
-                    <form class="contact-form"
-                          action="mailto:yourname@email.com"
-                          method="post"
-                          enctype="text/plain">
-
-                        <input type="text"
-                               name="fullname"
-                               placeholder="Full Name"
-                               aria-label="Full Name"
-                               required>
-
-                        <input type="email"
-                               name="email"
-                               placeholder="Email Address"
-                               aria-label="Email Address"
-                               required>
-
-                        <input type="text"
-                               name="subject"
-                               placeholder="Subject"
-                               aria-label="Subject"
-                               required>
-
-                        <textarea name="message"
-                                  rows="6"
-                                  placeholder="Your Message"
-                                  aria-label="Your Message"
-                                  required></textarea>
-
-                        <button type="submit" class="btn">
-                            Submit Message
-                        </button>
-
-                    </form>
-
-                </div>
-
-            </div>
-        </section>
-
-    </main>
-
-    <!-- Footer -->
-    <footer>
-        <div class="container footer-content">
-
-            <h3>Your Name</h3>
-
-            <p>First-Year Engineering Student | Aspiring Software Engineer</p>
-
-            <div class="social-links">
-                <a href="https://www.linkedin.com/"
-                   target="_blank"
-                   rel="noopener noreferrer">LinkedIn</a>
-
-                <a href="https://github.com/"
-                   target="_blank"
-                   rel="noopener noreferrer">GitHub</a>
-
-                <a href="https://www.instagram.com/"
-                   target="_blank"
-                   rel="noopener noreferrer">Instagram</a>
-            </div>
-
-            <p class="copyright">
-                &copy; 2026 Your Name. All Rights Reserved.
-            </p>
-
-        </div>
-    </footer>
-
-</body>
-</html>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #0b1120;
+    color: #ffffff;
+    line-height: 1.7;
+}
+
+html {
+    scroll-padding-top: 85px;
+}
+
+.container {
+    width: 90%;
+    max-width: 1150px;
+    margin: auto;
+}
+
+span {
+    color: #38bdf8;
+}
+
+/* Navigation Bar */
+header {
+    background-color: #111c32;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.2);
+}
+
+.navbar {
+    min-height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.logo {
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    color: #38bdf8;
+}
+
+/* Home Section */
+.home {
+    min-height: 85vh;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(135deg, #0b1120, #172c4b);
+}
+
+.home-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.home-text {
+    flex: 1;
+}
+
+.welcome {
+    color: #38bdf8;
+    font-weight: 600;
+    letter-spacing: 3px;
+    margin-bottom: 15px;
+}
+
+.home-text h1 {
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+
+.home-text h2 {
+    font-size: 23px;
+    color: #94a3b8;
+    margin-bottom: 20px;
+}
+
+.home-text p {
+    color: #cbd5e1;
+    margin-bottom: 25px;
+}
+
+.home-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.home-image img {
+    width: 310px;
+    height: 310px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 6px solid #38bdf8;
+    box-shadow: 0 0 30px rgba(56, 189, 248, 0.3);
+}
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    background-color: #38bdf8;
+    color: #0b1120;
+    padding: 12px 25px;
+    border: 2px solid #38bdf8;
+    border-radius: 30px;
+    text-decoration: none;
+    font-family: inherit;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: transparent;
+    color: #38bdf8;
+    transform: translateY(-3px);
+}
+
+/* Common Section Styling */
+.section {
+    padding: 85px 0;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.section-subtitle {
+    text-align: center;
+    color: #94a3b8;
+    margin-bottom: 40px;
+}
+
+/* About Section */
+.about-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.about-text {
+    flex: 1;
+}
+
+.about-text h3 {
+    color: #38bdf8;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+
+.about-text p {
+    color: #cbd5e1;
+    margin-bottom: 15px;
+}
+
+.about-details {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.detail-box {
+    background-color: #17243b;
+    padding: 20px;
+    border-left: 4px solid #38bdf8;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.detail-box:hover {
+    transform: translateX(8px);
+    background-color: #203553;
+}
+
+.detail-box h3 {
+    color: #38bdf8;
+    margin-bottom: 5px;
+}
+
+.detail-box p {
+    color: #cbd5e1;
+}
+
+/* Skills Section */
+.skills-section {
+    background-color: #111c32;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.skill-card {
+    flex: 1 1 200px;
+    max-width: 350px;
+    background-color: #1c2c46;
+    padding: 25px;
+    border-radius: 12px;
+    transition: 0.3s;
+}
+
+.skill-card:hover {
+    transform: translateY(-7px);
+    box-shadow: 0 5px 20px rgba(56, 189, 248, 0.15);
+}
+
+.skill-card h3 {
+    margin-bottom: 12px;
+}
+
+.skill-card p {
+    text-align: right;
+    color: #38bdf8;
+    margin-top: 8px;
+}
+
+.progress {
+    height: 9px;
+    background-color: #334155;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.progress-bar {
+    height: 100%;
+    background: linear-gradient(90deg, #0284c7, #38bdf8);
+    border-radius: 20px;
+}
+
+.html {
+    width: 90%;
+}
+
+.css {
+    width: 80%;
+}
+
+.c {
+    width: 70%;
+}
+
+.python {
+    width: 60%;
+}
+
+.communication {
+    width: 85%;
+}
+
+/* Projects Section */
+.projects-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.project-card {
+    flex: 1 1 300px;
+    max-width: 500px;
+    background-color: #17243b;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+.project-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 25px rgba(56, 189, 248, 0.15);
+}
+
+.project-card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.project-info {
+    padding: 25px;
+}
+
+.project-info h3 {
+    color: #38bdf8;
+    margin-bottom: 12px;
+}
+
+.project-info p {
+    color: #cbd5e1;
+    margin-bottom: 20px;
+}
+
+.tag {
+    display: inline-block;
+    background-color: #0e7490;
+    color: white;
+    padding: 5px 12px;
+    margin: 3px;
+    border-radius: 20px;
+    font-size: 12px;
+}
+
+/* Contact Section */
+.contact-section {
+    background-color: #111c32;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.contact-info {
+    flex: 1;
+}
+
+.contact-info h3 {
+    color: #38bdf8;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    color: #cbd5e1;
+    margin-bottom: 18px;
+}
+
+.contact-form {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 14px;
+    background-color: #1c2c46;
+    border: 1px solid #334155;
+    border-radius: 7px;
+    color: white;
+    font-family: inherit;
+    font-size: 14px;
+    outline: none;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border-color: #38bdf8;
+}
+
+.contact-form textarea {
+    resize: vertical;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+    color: #94a3b8;
+}
+
+.contact-form button {
+    align-self: flex-start;
+}
+
+/* Footer */
+footer {
+    background-color: #080e1a;
+    padding: 35px 0;
+    text-align: center;
+}
+
+.footer-content h3 {
+    font-size: 24px;
+    color: #38bdf8;
+    margin-bottom: 10px;
+}
+
+.footer-content p {
+    color: #94a3b8;
+    font-size: 14px;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin: 20px 0;
+    flex-wrap: wrap;
+}
+
+.social-links a {
+    color: #38bdf8;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.social-links a:hover {
+    color: white;
+    transform: translateY(-3px);
+}
+
+.copyright {
+    border-top: 1px solid #26364e;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+
+    .navbar {
+        justify-content: center;
+        padding: 15px 0;
+    }
+
+    .nav-links {
+        justify-content: center;
+        gap: 12px 18px;
+    }
+
+    .home-content {
+        flex-direction: column-reverse;
+        text-align: center;
+        gap: 30px;
+    }
+
+    .home-text h1 {
+        font-size: 34px;
+    }
+
+    .home-text h2 {
+        font-size: 20px;
+    }
+
+    .home-image img {
+        width: 230px;
+        height: 230px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .about-text,
+    .about-details {
+        width: 100%;
+    }
+
+    .contact-container {
+        flex-direction: column;
+    }
+
+    .contact-form button {
+        align-self: stretch;
+    }
+
+    .section {
+        padding: 65px 0;
+    }
+
+    .section-title {
+        font-size: 29px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    .container {
+        width: 92%;
+    }
+
+    .logo {
+        font-size: 22px;
+    }
+
+    .nav-links {
+        gap: 10px 14px;
+    }
+
+    .nav-links a {
+        font-size: 12px;
+    }
+
+    .home-text h1 {
+        font-size: 29px;
+    }
+
+    .home-image img {
+        width: 190px;
+        height: 190px;
+    }
+
+    .skill-card {
+        flex-basis: 100%;
+    }
+
+    .project-card img {
+        height: 180px;
+    }
+
+    .section-title {
+        font-size: 27px;
+    }
+}
